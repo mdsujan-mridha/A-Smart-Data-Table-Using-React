@@ -2,16 +2,34 @@ import React, { useEffect, useState } from 'react';
 import DataTable from 'react-data-table-component';
 
 const Datas = () => {
+    const [search,setSearch] = useState("");
     const[datas,setDatas] = useState([]);
-    console.log(datas);
+    const[filterData ,setFilterData] = useState([]);
+    
+    console.log(filterData);
 
     useEffect( ()=>{
        
      fetch("fakeData.json")
       .then(res => res.json())
-       .then(data => setDatas(data));
+       .then(data => {
+           setDatas(data)
+           setFilterData(data)
+          });
 
-    } ,[])
+    } ,[]);
+
+    const handleDelete = (id) =>{
+        setDatas();
+    }
+
+    useEffect( () => {
+         const result = datas.filter((d)=>{
+             return d.name.toLowerCase().match(search.toLowerCase())
+         });
+         setFilterData(result);
+
+    } ,[search]);
     
      const colums = [
         {
@@ -20,7 +38,8 @@ const Datas = () => {
         },
          {
              name: "Full Name",
-             selector:row => row.name
+             selector:row => row.name,
+             sortable:true
          },
          {
             name: "username",
@@ -29,12 +48,23 @@ const Datas = () => {
          {
             name: "Email",
             selector:row => row.email
+        },
+        {
+            name:"Action",
+            cell:row => <button className='btn btn-primary' onClick={()=> handleDelete(datas.id)}>Delete </button>
         }
         
      ] 
 
-    return <DataTable title= "User Information" columns={colums} data={datas} pagination fixedHeader
-    fixedHeaderScrollHeight='600px'/>
+    return <DataTable title= "User Information" columns={colums} data={filterData} pagination fixedHeader
+    fixedHeaderScrollHeight='600px' selectableRows selectableRowsHighlight highlightOnHover actions={
+           <button>Export </button>
+    }
+    subHeader
+    subHeaderComponent={
+        <input type="text" placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} />
+    }
+    subHeaderAlign="left"/>
 };
 
 export default Datas;
