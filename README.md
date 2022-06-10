@@ -1,70 +1,43 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A Smart Data Table Using React
+### Date: 9/6/2022 – 10/6/2022
+### Project Manager: Md. Sujan
 
-## Available Scripts
+## Live Link: 
+## Github Repository: https://github.com/mdsujan-mridha/A-Smart-Data-Table-Using-React/edit/main/README.md
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Descriotion:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project is about the creation of a smart data table using react. For creating the data table API is used. The app fetches data and shows them in a table. The table data is paginated and, on every page, the user can display data as his/her wish. Users can display 10, 15, 20, or 25 data. The data can also display and show in asemantic order. Users can also search and move data from one page to another.
+         
+### Key Actions:
+	Fetch data
+	Choose API
+	Implementing Search data option
+	Implementing the Move data option
+	Pagination
+	Data filtering
+	Creating Table           
 
-### `npm test`
+### Milestones: 
+•	Milestone - 01: Choose API
+•	Milestone - 02: Fetch data
+•	Milestone - 03: Pagination
+•	Milestone - 04: Data filtering
+•	Milestone - 05: Implementing Search and Move data option
+•	Milestone - 06:  Creating Table
+•	Milestone - 07:  Check Everything
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ ### Project Schedule: 
+•	Milestone - 01: Choose API – 60 min
+•	Milestone - 02: Fetch data    - 40 min
+•	Milestone - 03: Pagination – 60 min
+•	Milestone - 04: Data filtering – 80 min
+•	Milestone - 05: Implementing Search and Move data option – 40 min
+•	Milestone - 06:  Creating Table – 30 min
+•	Milestone - 07:  Check Everything – 40 min
 
-### `npm run build`
+ #### Project activities and the working way was changed many times and after completing one feature successfully, the project report was updated. All the changes and progress were updated from time to time. Final Report, reflections, typing of loose ends and format of closure, live link, GitHub link, submission was checked.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
