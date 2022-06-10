@@ -57,7 +57,7 @@ const Datas = () => {
 
     return <DataTable  columns={colums} data={filterData} pagination fixedHeader
     fixedHeaderScrollHeight='500px' selectableRows selectableRowsHighlight highlightOnHover actions={
-           <button className='btn btn-primary w-25'>Export </button>
+           <button  className='btn btn-primary w-25'> Export </button>
     }
     subHeader
     subHeaderComponent={
