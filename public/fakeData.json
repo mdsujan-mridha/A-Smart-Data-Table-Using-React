@@ -84,7 +84,7 @@
         "id": 11,
         "name": "Aston Agaer",
         "username": "Agaer",
-        "email": "Rey.Padberg@karina.biz",
+        "email": "Agaer@Agaer.biz",
         "img":"./images/11.jpg"
         
       },
@@ -92,7 +92,7 @@
         "id": 12,
         "name": "Arone Fince",
         "username": "Fince",
-        "email": "Rey.Padberg@karina.biz",
+        "email": "Fince@Fince.biz",
         "img":"./images/12.jpg"
         
       },
@@ -100,7 +100,7 @@
         "id": 13,
         "name": "Glean Maxwell",
         "username": "Maxwell",
-        "email": "Rey.Padberg@karina.biz",
+        "email": "Maxwell@karina.biz",
         "img":"./images/13.jpg"
         
       },
@@ -108,7 +108,7 @@
         "id": 14,
         "name": "Imran Tahir",
         "username": "Tahir",
-        "email": "Rey.Padberg@karina.biz",
+        "email": "Tahir@karina.biz",
         "img":"./images/14.jpg"
         
       },
@@ -116,7 +116,7 @@
         "id": 15,
         "name": "Kine Abot",
         "username": "Abot",
-        "email": "Rey.Padberg@karina.biz",
+        "email": "Abot@karina.biz",
         "img":"./images/15.jpg"
         
       },
@@ -124,7 +124,7 @@
         "id": 16,
         "name": "Petter Parker",
         "username": "Parker",
-        "email": "Rey.Padberg@karina.biz",
+        "email": "Parker@Parker.biz",
         "img":"./images/16.jpg"
         
       },
@@ -140,7 +140,7 @@
         "id": 18,
         "name": "Mithcel March",
         "username": "March",
-        "email": "Rey.Padberg@karina.biz",
+        "email": "March@March.biz",
         "img":"./images/18.jpg"
         
       },
@@ -148,7 +148,7 @@
         "id": 19,
         "name": "leonel messi",
         "username": "messi",
-        "email": "Rey.Padberg@karina.biz",
+        "email": "messi@karina.biz",
         "img":"./images/19.jpg"
         
       },
@@ -157,6 +157,22 @@
         "name": "Jon Smith",
         "username": "Jon",
         "email": "Rey.Padberg@karina.biz",
+        "img":"./images/20.jpg"
+        
+      },
+      {
+        "id": 21,
+        "name": "Robart Moris",
+        "username": "Moris",
+        "email": "moris@gmail.com",
+        "img":"./images/20.jpg"
+        
+      },
+      {
+        "id": 22,
+        "name": "Alxeander sadiku",
+        "username": "Sadilu",
+        "email": "Sadiku@gmail.com",
         "img":"./images/20.jpg"
         
       }
