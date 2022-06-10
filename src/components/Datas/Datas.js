@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Button, Modal } from 'react-bootstrap';
 import DataTable from 'react-data-table-component';
 
 const Datas = () => {
@@ -6,7 +7,7 @@ const Datas = () => {
     const[datas,setDatas] = useState([]);
     const[filterData ,setFilterData] = useState([]);
     
-    console.log(filterData);
+    console.log(datas);
 
     useEffect( ()=>{
        
@@ -19,13 +20,11 @@ const Datas = () => {
 
     } ,[]);
 
-    const handleDelete = (id) =>{
-        setDatas();
-    }
+    
 
     useEffect( () => {
          const result = datas?.filter((d)=>{
-             return d.name.toLowerCase().match(search.toLowerCase())
+             return d.username.toLowerCase().match(search.toLowerCase()) 
          });
          setFilterData(result);
 
@@ -51,7 +50,7 @@ const Datas = () => {
         },
         {
             name:"Action",
-            cell:row => <button className='btn btn-danger' onClick={()=> handleDelete(datas.id)}> Delete </button>
+            cell:row => <button className='btn btn-success' onClick={()=> alert(row.id)}> Show user ID </button>
         }
         
      ] 
